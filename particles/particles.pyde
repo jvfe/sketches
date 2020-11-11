@@ -1,6 +1,6 @@
 from random import choice
 
-colors = ["#e7da63", "#f25894", "#f3f0e7", "#92cabf", "#86413a"]
+colors = ["#141616", "#18373c", "#35585e", "#be8579", "#bab9ce"]
 
 
 class Particle(object):
@@ -31,7 +31,7 @@ num_particles = 3200
 
 def setup():
     global particle
-    background(240)
+    background(27)
     size(1800, 1920)
     for i in range(num_particles):
         particle = Particle()
